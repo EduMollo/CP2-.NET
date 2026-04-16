@@ -335,21 +335,6 @@ dotnet ef migrations remove --project ../LojaVirtual.Infrastructure
 
 Este projeto implementa **persistência completa** seguindo princípios de **Clean Architecture**, com mapeamentos **Fluent API** explícitos, **migrations versionadas** e **acesso a dados por contrato** (interfaces de repositório).
 
----
-│   │       ├── Loja.cs
-│   │       ├── Estoque.cs
-│   │       ├── Produto.cs
-│   │       ├── Categoria.cs
-│   │       ├── Cliente.cs
-│   │       ├── EstoqueProduto.cs       → Associativa (N:N)
-│   │       └── CategoriaProduto.cs     → Associativa (N:N)
-│   ├── LojaVirtual.Application/       → Camada de aplicação (casos de uso)
-│   ├── LojaVirtual.Infrastructure/    → Camada de infraestrutura (acesso a dados)
-│   └── LojaVirtual.Api/              → Camada de apresentação (WebAPI)
-│       └── Program.cs
-├── docs/
-│   └── mer.jpeg                       → Diagrama MER
-└── README.md
 ```
 
 ## Tecnologias
