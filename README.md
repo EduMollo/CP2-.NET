@@ -336,9 +336,6 @@ dotnet ef migrations remove --project ../LojaVirtual.Infrastructure
 Este projeto implementa **persistência completa** seguindo princípios de **Clean Architecture**, com mapeamentos **Fluent API** explícitos, **migrations versionadas** e **acesso a dados por contrato** (interfaces de repositório).
 
 ---
-
-**"Faça o teu melhor, na condição que você tem, enquanto você não tem condições melhores, para fazer melhor ainda"  
-— Mario Sergio Cortella**
 │   │       ├── Loja.cs
 │   │       ├── Estoque.cs
 │   │       ├── Produto.cs
